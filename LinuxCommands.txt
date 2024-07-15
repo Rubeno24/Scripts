@@ -1,0 +1,72 @@
+Important Linux Commands 
+
+
+#Listing Files
+ls (list all files)
+ls -R (Lists all files and subdirectories)
+
+
+#Moves around in directories
+pwd (print working directory)
+cd - (takes you to previous directory and vice versa)
+cd .. (takes you to previous directory)
+cd ~ (takes you to home directory)
+
+
+#Create a file
+touch filename.txt (creates a file name in current directory)
+touch /path/to/your/directory/sample.txt (creates a file in the directory of your choice)
+mv old_file_name new_file_name (Renames file)
+
+
+#Delete a file and renaming
+rm file_name (used to delete a file)
+
+
+#Opening file in a text editor
+nano file_name (opens the file in a nano text editor)
+vi file_name (opens the file in a vi text editor)
+
+
+#Zipping and Unzipping Files
+zip zip_name.zip file_name.txt file_name1.txt (comnbines and compresses files into a zip file)
+unzip zip_name.zip (unzips a zip file)
+
+
+#Displaying files in the console
+cat file_name.txt (displays the contents of a file)
+head sample.txt (prints the first 10 lines of a file)
+head -n 20 sample.txt (prints the first 20 lines of a file)
+tail sample.txt (prints the last 10 lines of a file)
+tail -n 20 sample.txt (prints the last 20 lines of r)
+
+
+#Searching and sorting to console
+sort file_name (sorts in abc order)
+sort -r file_name (sorts in reverse abc order)
+grep word_toSearch sample.txt (seaches for a word in a file)
+
+
+#Creating and Deleting Directories
+mkdir directory_name (Creates a folder in Linux)
+rmdir directory_name (Deletes a folder in Linux if empty)
+rm -rf directory_path (Deletes a folder that is not empty)
+
+
+#Copying and moving File to another Directory
+cp file_name.txt /path/to/your/file (copies a file from your current directory to the specfied directory by the path name)
+mv file_name /path/to/your/file (moves file to directory of your choice specfied by path)
+
+
+#File stats
+file file_name.txt (gets the file type, text,image, binary...etx)
+stat sample.txt
+
+
+#Displays Running processes
+top (displays running processes)
+htop (similar but more info and uses the mouse)
+
+#Interent Command
+ping google.com (useful to see if your internet is facing any issues sends packets back to you)
+
